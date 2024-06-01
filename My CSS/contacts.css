@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    background-color: white;
+    height: 500px;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.address {
+    font-weight: bold;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: #444;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
